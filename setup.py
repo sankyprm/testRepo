@@ -30,3 +30,7 @@ except ImportError:
         packages=['linkedin'],
         zip_safe=False,
         )
+try:
+    print("this is the new line added to the file by user 1 from desktop")
+except:
+    print("Just a sample checking script")
