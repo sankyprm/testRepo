@@ -1,0 +1,6 @@
+__author__ = 'sankycse'
+import facebook
+
+fb_handle = facebook.GraphAPI('CAAJ0iQjU1ZCEBAAJc98xPQ2ALLPnn257eA01ZB7GQ1sKDxuoWLlTtpUhH4dkiuEPPHlPphsmSNwgF6Gx6OaXFXprG5CpLaPhPuScmXTrcW5FgG7l7uBeiXwcxgRcN4ogM0V2NUQRjIZBfSZBEEoQCGyckKjNVBOBL1SuwegYvgLHIzUWVVmkdMLMGDIwD03Sp43MdrcekaPuyVhXgNza')
+user_info = fb_handle.get_object('273545576183648')
+print user_info
