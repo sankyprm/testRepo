@@ -30,3 +30,9 @@ except ImportError:
         packages=['linkedin'],
         zip_safe=False,
         )
+
+
+try:
+    print("This code part is added by user 2 from laptop thinkpad")
+except:
+    print("this just a sample code to check git usage")
