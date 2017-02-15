@@ -30,3 +30,5 @@ except ImportError:
         packages=['linkedin'],
         zip_safe=False,
               )
+def rebaseExample():
+    print("code changed by user 2")
