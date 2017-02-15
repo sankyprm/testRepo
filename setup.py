@@ -37,3 +37,5 @@ def incorporatedChanges():
 
 def newFun():
     print("new fun by user1")
+def branchUser2():
+    print("branch created by user 2")
