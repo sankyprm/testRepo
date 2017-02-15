@@ -34,3 +34,4 @@ def rebaseExample():
     print("code changed by user 2")
 def incorporatedChanges():
     print("conde change by user 1")
+    print("code changes made by user2")
